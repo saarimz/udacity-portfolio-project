@@ -1,6 +1,6 @@
 body {
 	box-sizing: border-box;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 }
 
 @media screen and (min-width: 1000px) {
@@ -10,7 +10,7 @@ body {
 	}
 
 	.jumbotron {
-	background-image: url('https://unsplash.it/1000/400');
+	background-image: url(https://unsplash.it/1000/400);
 	background-size: cover;
 	min-height: 400px;	
 	}
@@ -18,7 +18,7 @@ body {
 
 @media screen and (min-width: 800px) and (max-width: 999px) {
 	.jumbotron {
-	background-image: url('https://unsplash.it/800/400');
+	background-image: url(https://unsplash.it/800/400);
 	background-size: cover;
 	min-height: 400px;	
 	}
@@ -35,7 +35,7 @@ body {
 @media screen and (max-width: 799px) and (min-width: 500px) {
 	
 	.jumbotron {
-		background-image: url('https://unsplash.it/500/300');
+		background-image: url(https://unsplash.it/500/300);
 		background-size: cover;
 		min-height: 300px;
 		transition: width 2s;
@@ -91,7 +91,7 @@ h2 {
 	color: #7d97ad;
 }
 
-.item img{
+.item img {
 	margin: 0 auto;
 }
 
